@@ -17,6 +17,26 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+.fetched-data-container {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+}
+
+.fetched-data-container h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Add styles for the fetched data display */
+.fetched-data-container pre {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  color: #555;
+  white-space: pre-wrap;
+}
+
 .time-picker-container {
   display: flex;
   justify-content: space-between;
